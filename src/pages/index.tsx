@@ -53,6 +53,12 @@ const Home: NextPage = () => {
             src/pages/index.tsx
           </code>
         </p>
+        <p className="my-12 text-center text-2xl leading-9">
+          Get started by testing{" "}
+          <code className="rounded-md bg-gray-200 p-2 font-mono text-xl">
+            src/pages/self.tsx
+          </code>
+        </p>
 
         <div className="flex max-w-3xl flex-wrap items-center justify-center">
           <Card
