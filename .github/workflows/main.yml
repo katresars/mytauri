@@ -3,7 +3,7 @@ name: Build on Push
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -17,8 +17,11 @@ jobs:
         with:
           node-version: '20' # LATEST
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm prepare
 
       - name: Build
         run: pnpm build
