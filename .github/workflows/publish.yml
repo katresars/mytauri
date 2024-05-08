@@ -81,19 +81,19 @@ jobs:
       - name: Install frontend dependencies
         run: pnpm install # change this to npm or pnpm depending on which one you use.
 
-      - name: Build project
-        run: |
-          # Run your build command here
-          # For example, if you're building Rust binaries, you might run `cargo build --release`
-          # Replace this with your actual build command
-          echo "Running build command..."
-          cargo build --release # Assuming Rust project
+      # - name: Build project
+      #   run: |
+      #     # Run your build command here
+      #     # For example, if you're building Rust binaries, you might run `cargo build --release`
+      #     # Replace this with your actual build command
+      #     echo "Running build command..."
+      #     cargo build --release # Assuming Rust project
 
-      - name: Archive Release Files
-        uses: actions/upload-artifact@v2
-        with:
-          name: release-files
-          path: target/release # Assuming the release files are located in the 'target/release' directory
+      # - name: Archive Release Files
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: release-files
+      #     path: target/release # Assuming the release files are located in the 'target/release' directory
 
           
       - name: Publish Release
