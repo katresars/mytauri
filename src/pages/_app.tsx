@@ -1,7 +1,7 @@
 import "@/styles/globals.css"
 import type { AppProps } from "next/app"
 import MenuCard from "@/components/MenuCard"
-import {iconItems} from "./icons"
+import { iconItems } from "@/data/icons"
 import Head from "next/head"
 import Image from "next/image"
 

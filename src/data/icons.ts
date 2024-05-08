@@ -1,3 +1,5 @@
+// import * as Icons from "@tamagui/lucide-icons";
+
 export const iconItems = [
     {text: '首页' },
     {text: 'YouTube', href: '/youtube' },
