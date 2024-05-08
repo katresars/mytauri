@@ -1,12 +1,12 @@
 import type { NextPage } from "next"
 
-const Streams: NextPage = () => {
+const Rss: NextPage = () => {
 
   return (
     <main className="flex-1 p-6">
-      <p>This is the streams page</p>
+      <p>This is the rss page</p>
     </main>
   )
 }
 
-export default Streams
+export default Rss
