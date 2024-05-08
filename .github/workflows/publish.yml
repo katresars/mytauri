@@ -75,6 +75,7 @@ jobs:
           name: release-files
           path: target/release # Assuming the release files are located in the 'target/release' directory
 
+          
       - name: Publish Release
         uses: tauri-apps/tauri-action@v0
         env:
