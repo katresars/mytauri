@@ -1,6 +1,4 @@
-// import * as Icons from "@tamagui/lucide-icons";
-
-const iconItems = [
+export const iconItems = [
     {text: '首页' },
     {text: 'YouTube', href: '/youtube' },
     {text: 'Twitter' },
@@ -10,5 +8,3 @@ const iconItems = [
     {text: 'last', href: '/lastitem' },
     {text: 'Music', href: '/music' },
 ];
-
-export default iconItems;
