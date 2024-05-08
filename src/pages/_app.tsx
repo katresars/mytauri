@@ -38,6 +38,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 width={78}
               />
             </span>
+            <span className="ml-1 text-sm" title="App version">{process.env.NEXT_PUBLIC_APP_VERSION || "(unknown version)"}</span>
           </a>
         </div>
       </footer>
